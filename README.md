@@ -10,7 +10,6 @@ Fast-track Windows security with a clean walkthrough for deploying account locko
 - Understand the value of account lockout policies in Windows networks
 - Apply lockout policy settings through Group Policy Management Console (GPMC)
 - Test and validate the GPO’s effectiveness across user accounts
-- Highlight troubleshooting steps and best practices for policy refinement
 
 ## 🛠️ Requirements
 - Windows Server with Active Directory Domain Services (AD DS)
