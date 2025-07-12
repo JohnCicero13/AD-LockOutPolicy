@@ -1,7 +1,7 @@
 <p align="center">
 <img src="https://i.imgur.com/97OPyMe.jpeg" alt="Account Lockout Screen"/>
 </p>
-# 🔐 Securing Windows: Implementing GPO-Based Account Lockout Policies
+# 🔐 Lock & Secure: Deploying Account Lockout Policies Using GPOs
 
 ## 📘 Overview
 This repository demonstrates how to configure an Account Lockout Policy using Group Policy Objects (GPOs) in a Windows domain environment. The objective is to improve system security and minimize brute-force login attempts.
