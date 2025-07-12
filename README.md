@@ -16,6 +16,9 @@ Fast-track Windows security with a clean walkthrough for deploying account locko
 - Group Policy Management Console (GPMC)
 - Administrative access to domain controller
 
+## 🖥️ Systems Used
+- 
+
 ## 📂 Implementation Steps
 
 ### 1. Launch Group Policy Management
