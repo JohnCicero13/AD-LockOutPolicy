@@ -1,3 +1,3 @@
 <p align="center">
-<img src="https://imgur.com/a/UhQau7q" alt="Account Lockout Screen"/>
+<img src="https://i.imgur.com/97OPyMe.jpeg" alt="Account Lockout Screen"/>
 </p>
