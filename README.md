@@ -4,7 +4,7 @@
 🔐 Lock & Secure: Deploying Account Lockout Policies Using GPOs
 
 ## 📘 Overview
-This repository demonstrates how to configure an Account Lockout Policy using Group Policy Objects (GPOs) in a Windows domain environment. The objective is to improve system security and minimize brute-force login attempts.
+Fast-track Windows security with a clean walkthrough for deploying account lockout policies using Group Policy—prevent brute-force attacks with just a few clicks.
 
 ## 🎯 Objectives
 - Understand the value of account lockout policies in Windows networks
