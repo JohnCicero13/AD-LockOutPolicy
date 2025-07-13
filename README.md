@@ -18,6 +18,7 @@ Fast-track Windows security with a clean walkthrough for deploying account locko
 - Administrative access to domain controller
 
 ## 🖥️ Systems/Environments and Technologies Used
+- Windows Server 2022
 - Microsoft Azure (Virtual Machines)
 - Remote Desktop
 - Active Directory Domain Services
