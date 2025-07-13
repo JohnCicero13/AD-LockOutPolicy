@@ -18,12 +18,10 @@ Fast-track Windows security with a clean walkthrough for deploying account locko
 - Administrative access to domain controller
 
 ## 🖥️ Systems/Environments and Technologies Used
-- Windows 10 (21H2)
 - Windows Server 2022
 - Microsoft Azure (Virtual Machines)
 - Remote Desktop
 - Active Directory Domain Services
-- PowerShell
 
 ## 📂 Implementation Steps
 
@@ -90,13 +88,13 @@ Right-click your target 'Organizational Unit (OU)' or domain → Select 'Link an
 ### 6️⃣ Apply Group Policy
 To force-update policies:
 ```bash
-Run 'CMD' → Type command 'gpupdate /force'
+Run 'CMD' → Enter command 'gpupdate /force'
 ```
 <p align="center"> <img src="https://i.imgur.com/cVX0bKP.png" alt="Acc lockout policy"/> </p>
 
 ### 7️⃣ Validate GPO's Effectiveness on Domain Users Account
 ```
-Atempt 5 logons to Domain Controller with invalid password to trigger account lockout
+Atempt 5 logons to Domain Controller with invalid password to trigger account lockout. The Remote Desktop connection used to connect to the Domain Controllers VM displayed this message of the GPO's effective lockout policy
 ```
 <p align="center"> <img src="https://i.imgur.com/lNSnr8s.png" alt="Acc lockout policy"/> </p>
 
