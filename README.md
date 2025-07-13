@@ -16,7 +16,7 @@ Fast-track Windows security with a clean walkthrough for deploying account locko
 - Group Policy Management Console (GPMC)
 - Administrative access to domain controller
 
-## 🖥️ Systems/Enviornemnts and Technologies Used
+## 🖥️ Systems/Environments and Technologies Used
 - Microsoft Azure (Virtual Machines)
 - Remote Desktop
 - Active Directory Domain Services
