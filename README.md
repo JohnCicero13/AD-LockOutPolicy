@@ -32,3 +32,4 @@ Go to:
 ```plaintext
 Start Menu → Administrative Tools → Group Policy Management
 ```
+<p align="center"> <img src="https://i.imgur.com/ipcoMQU.png" alt="GPMC"/> </p>
