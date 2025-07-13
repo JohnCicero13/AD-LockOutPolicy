@@ -93,14 +93,12 @@ Run 'CMD' → Enter command 'gpupdate /force'
 <p align="center"> <img src="https://i.imgur.com/cVX0bKP.png" alt="Acc lockout policy"/> </p>
 
 ### 7️⃣ Validate GPO's Effectiveness on Domain Users Account
-```
-Atempt 5 logons to Domain Controller with invalid password to trigger account lockout. The Remote Desktop connection used to connect to the Domain Controllers VM displayed this message of the GPO's effective lockout policy
-```
+
+Trigger the Account Lockout Policy by executing the set value of invalid password logons to the Domain Controller on a Domain user account. The Remote Desktop Connection used in this walkthrough to connect to the Domain Controllers 'VM' displayed this message of the GPO effectively locking out the users account
 <p align="center"> <img src="https://i.imgur.com/lNSnr8s.png" alt="Acc lockout policy"/> </p>
 
-```
-Sign into different Admin user on Domain controller → Open 'Active Directory Users and Computers' → Find locked out user → Right click on user → Click Properties → Click Account → On Unlock account check box, "This account is currently locked out" message should appear.
-```
+Sign into Domain Controller using an unlocked Admin account → Open 'Active Directory Users and Computers' → Find the locked out user → Right click on the user → Click Properties → Click Account → The Unlock account check box should say "This account is currently locked out on this Active Directory Domain Controller."
+
 <p align="center"> <img src="https://i.imgur.com/5dsKNwD.png" alt="Acc lockout policy"/> </p>
 
 ```
