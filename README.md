@@ -17,7 +17,10 @@ Fast-track Windows security with a clean walkthrough for deploying account locko
 - Administrative access to domain controller
 
 ## 🖥️ Systems Used
-- [Microsoft Azure (Virtual Machines)] [Remote Desktop] [Active Directory Domain Services] [PowerShell]
+- [Microsoft Azure (Virtual Machines)]
+- [Remote Desktop]
+- [Active Directory Domain Services]
+- [PowerShell]
 
 ## 📂 Implementation Steps
 
