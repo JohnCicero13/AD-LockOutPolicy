@@ -1,6 +1,7 @@
 <p align="center">
 <img src="https://i.imgur.com/97OPyMe.jpeg" alt="Account Lockout Screen"/>
 </p>
+
 ## 🔐 Lock & Secure: Deploying Account Lockout Policies Using GPOs
 
 ## 📘 Overview
