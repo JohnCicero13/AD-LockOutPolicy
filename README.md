@@ -1,8 +1,7 @@
+🔐 Lock & Secure: Deploying Account Lockout Policies Using GPOs
 <p align="center">
 <img src="https://i.imgur.com/97OPyMe.jpeg" alt="Account Lockout Screen"/>
 </p>
-
-## 🔐 Lock & Secure: Deploying Account Lockout Policies Using GPOs
 
 ## 📘 Overview
 Fast-track Windows security with a clean walkthrough for deploying account lockout policies using Group Policy—prevent brute-force attacks with just a few clicks.
