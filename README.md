@@ -31,4 +31,6 @@ Fast-track Windows security with a clean walkthrough for deploying account locko
 Go to:
 ```plaintext
 Start Menu → Administrative Tools → Group Policy Management
-https://i.imgur.com/ipcoMQU.png
+<p align="center">
+<img src="https://i.imgur.com/ipcoMQU.png" alt="GPMC"/>
+</p>
