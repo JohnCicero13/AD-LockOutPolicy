@@ -36,7 +36,7 @@ Start Menu → type 'gpmc.msc' → and press enter
 
 ### 2️⃣ Create or Edit a GPO
 ```plaintext
-Navigate to 'Group Policy Objects' → Right-click to 'create a new GPO' or select an existing one to 'edit' → Give it a name like `"Account Lockout Policy"`.
+Navigate to 'Group Policy Objects' → Right-click to 'create a new GPO' or select an existing one to 'edit' → Give it a name like "Account Lockout Policy"
 ```
 <p align="center"> <img src="https://i.imgur.com/Ep9d6Uo.png" alt="Rename"/> </p>
 
@@ -88,6 +88,39 @@ Right-click your target 'Organizational Unit (OU)' or domain → Select 'Link an
 <p align="center"> <img src="https://i.imgur.com/VOlupQ7.png" alt="Acc lockout policy"/> </p>
 
 ### 6️⃣ Apply Group Policy
-To force-update policies:  
+To force-update policies:
 ```bash
-gpupdate /force
+Run 'CMD' → Type command 'gpupdate /force'
+```
+<p align="center"> <img src="https://i.imgur.com/cVX0bKP.png" alt="Acc lockout policy"/> </p>
+
+### 7️⃣ Validate GPO's Effectiveness on Domain Users Account
+```
+Atempt 5 logons to Domain Controller with invalid password to trigger account lockout
+```
+<p align="center"> <img src="https://i.imgur.com/lNSnr8s.png" alt="Acc lockout policy"/> </p>
+
+```
+Sign into different Admin user on Domain controller → Open 'Active Directory Users and Computers' → Find locked out user → Right click on user → Click Properties → Click Account → On Unlock account check box, "This account is currently locked out" message should appear.
+```
+<p align="center"> <img src="https://i.imgur.com/5dsKNwD.png" alt="Acc lockout policy"/> </p>
+
+```
+An alternate method of viewing various events such as user lockouts is by typing 'eventvwr.msc' in the start menu
+```
+<p align="center"> <img src="https://i.imgur.com/fnpe1Ug.png" alt="Acc lockout policy"/> </p>
+
+```
+Navigate to 'Windows Logs' → Right click on 'Security' → Click 'Find'
+```
+<p align="center"> <img src="https://i.imgur.com/k4fyqBw.png" alt="Acc lockout policy"/> </p>
+
+```
+Search the user locked out of Domain Controller → Click 'Find Next'
+```
+<p align="center"> <img src="https://i.imgur.com/b7Hk2vF.png" alt="Acc lockout policy"/> </p>
+
+```
+The most recent event should be an 'Account Lockout' Double click on the event to view all details of the event
+```
+<p align="center"> <img src="https://i.imgur.com/1Mtz9VN.png" alt="Acc lockout policy"/> </p>
