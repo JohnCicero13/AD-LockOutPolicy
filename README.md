@@ -36,7 +36,7 @@ Start Menu → type 'gpmc.msc' → and press enter
 
 ### 2️⃣ Create or Edit a GPO
 ```plaintext
-Navigate to **Group Policy Objects** → Right-click to **create a new GPO** or select an existing one to **edit** → Give it a name like `"Account Lockout Policy"`.
+Navigate to 'Group Policy Objects' → Right-click to 'create a new GPO' or select an existing one to 'edit' → Give it a name like `"Account Lockout Policy"`.
 ```
 <p align="center"> <img src="https://i.imgur.com/Ep9d6Uo.png" alt="Rename"/> </p>
 
@@ -49,12 +49,12 @@ Expand: Computer Configuration → Policies → Windows Settings → Security Se
 ### 4️⃣ Configure Account Lockout Policy
 Set the following values:
 ```
-Account Lockout Duration → Check 'Define this policy setting' → Set desired lockout time → Click Apply
+Account Lockout Duration: Check 'Define this policy setting' → Set desired lockout duration → Click Apply
 ```
-<p align="center"> <img src="https://i.imgur.com/I5G0Ilu.png" alt="Desired time"/> </p>
+<p align="center"> <img src="https://i.imgur.com/I5G0Ilu.png" alt="Desired lockout duration"/> </p>
 
 ```
-A "Suggested Value Changes" window will pop up. Based on the set value of 'Account lockout duration', suggested values will be set for 'Account lockout threshold' and 'Reset account lockout counter after' → Click OK
+A "Suggested Value Changes" window will pop up based on the set value of 'Account lockout duration', suggested values will be set for 'Account lockout threshold' and 'Reset account lockout counter after' → Click OK
 ```
 
 <p align="center"> <img src="https://i.imgur.com/DNF6XeN.png" alt="Acc lockout policy"/> </p>
@@ -65,7 +65,7 @@ Click OK again
 <p align="center"> <img src="https://i.imgur.com/cjUwybR.png" alt="Acc lockout policy"/> </p>
 
 ```
-Account Lockout Threshold: Set 'Account will lockout after:' to desired amount of 'invalid logon attempts' → Click OK
+Account Lockout Threshold: Set 'Account will lockout after:' to desired value of 'invalid logon attempts' → Click OK
 ```
 <p align="center"> <img src="https://i.imgur.com/OPeOEnp.png" alt="Acc lockout policy"/> </p>
 
@@ -74,13 +74,18 @@ A "Suggested Value Changes" window may pop up based on the set value of 'Account
 ```
 <p align="center"> <img src="https://i.imgur.com/8qqeRjZ.png" alt="Acc lockout policy"/> </p>
 
-- **Reset Account Lockout Counter After**: Time to reset the failed login count (e.g., 15 minutes)
-
-> ⚙️ Double-click each setting → **Define this policy setting** → Input desired value.
+```
+Reset Account Lockout Counter After: Set 'Reset account lockout counter after' to desired value → Click OK
+```
+<p align="center"> <img src="https://i.imgur.com/Zv1Y2ef.png" alt="Acc lockout policy"/> </p>
 
 ### 5️⃣ Link the GPO
-- Right-click your target **Organizational Unit (OU)** or domain.
-- Select **Link an Existing GPO**, choose your policy, and click OK.
+```
+Right-click your target 'Organizational Unit (OU)' or domain → Select 'Link an Existing GPO' → Choose your policy → Click OK.
+```
+<p align="center"> <img src="https://i.imgur.com/jeXjkMb.png" alt="Acc lockout policy"/> </p>
+
+<p align="center"> <img src="https://i.imgur.com/VOlupQ7.png" alt="Acc lockout policy"/> </p>
 
 ### 6️⃣ Apply Group Policy
 To force-update policies:  
